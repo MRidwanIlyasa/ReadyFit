@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hdr"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/header2"
+        />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:id="@+id/listview"
+        android:background="#000"
+        />
+    <Button
+        android:id="@+id/aboutBTN"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="1dp"
+        android:textColor="#fff"
+       android:background="@drawable/btnbackground"
+        android:text="ABOUT"
+        />
+
+</LinearLayout>

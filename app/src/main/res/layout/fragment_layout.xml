@@ -1,0 +1,41 @@
+<com.ridwan.projekuas.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/btn_malang"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/latihan1"
+        android:text="Latihan Tingkat Awal "
+        android:onClick="pindah"/>
+
+    <Button
+        android:id="@+id/btn_tlpenting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/latihan2"
+        android:text="Latihan Tingkat Lanjut" />
+
+    <Button
+        android:id="@+id/btn_tmpenting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/latihan3"
+        android:text="Latihan Tingkat Akhir" />
+
+    <Button
+        android:id="@+id/btn_rsakit"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bmii"
+        android:text="BMI" />
+
+    <Button
+        android:id="@+id/btn_pwisata"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="About" />
+
+
+
+</com.ridwan.projekuas.DashboardLayout>

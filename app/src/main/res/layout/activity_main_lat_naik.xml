@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainLatNaik"
+    android:background="#123">
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Angkat Kaki"
+        android:textColor="#193"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/judul"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Posisi awal berbaring dan letakkan kedua tangan lurus disamping badan anda
+        lalu angkat kedua kaki lurus ke atas , lalu kembali keposisi semula |n\n\n
+        Latihan ini melatih otot perut dan kaki
+"
+        android:textStyle=""/>
+
+
+
+</RelativeLayout>

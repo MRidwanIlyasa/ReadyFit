@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainLatLomjong"
+    android:background="#123">
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Lompat Bintang"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#EE9"
+
+        />
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:text="Mulai dari posisi berdiri dengan kaki rapat , lalu lompat dengan kaki terbuka
+dan menepuk telapak keatas kepala sampai saling bersentuhan lalu kembali ke posisi awal\n\n
+Latihan ini memberikan gerakan terhadap seluruh kelompok otot besar anda
+"
+        android:textStyle=""/>
+
+
+
+</RelativeLayout>

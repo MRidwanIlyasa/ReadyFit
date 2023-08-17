@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="650dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popback"
+    >
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+
+            />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/video"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="HELLO GUYS"
+            android:textStyle="bold"
+            android:textColor="#ff8811"
+            />
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:layout_below="@id/judul"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:text="HELLO GUYS !!! \n\n
+            My name is Muhammad Ridwan Ilyasa this is my 1st app 'READYFIT'"
+            android:layout_marginTop="10dp"
+            android:textColor="#11ee99"
+            />
+
+
+</RelativeLayout>

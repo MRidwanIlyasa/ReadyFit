@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainLatPush"
+    android:background="#112233"
+    >
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Push Up"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/judul"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Berbaring di lantai dengan lengan menumpu tubuh \n\n Jaga tubuh
+anda tetap lurus ketika mengangkat dan menurunkan tubuh anda dengan tangan \n\n
+
+Latihan ini mampu melatih dada , bahu , otot trisep , punggung , dan kaki"
+        android:textStyle=""/>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/deskripsi"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="ANJURAN\n\n Hari ke-1 == x 5\n Hari ke-2 == x 6
+        \n Hari ke-3 == x 7\n Hari ke-4 == x 8\n Hari ke-5 == x 9
+        \n Hari ke-6 == x 10\n Hari ke-7 == x 11"
+        android:textStyle="bold"
+        android:textSize="15dp"
+
+    />
+
+
+</RelativeLayout>
